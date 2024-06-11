@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Poppins:wght@400;500;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background: #FAFCD6;
+/*  background: white;*/
+}
+
+/*START OF NAV*/
+
+/*.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  background: seagreen;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}*/
+.card p{
+  text-indent: 10px;
+}
+.active{
+  background-color: black;
+  border: solid 2px black;
+  color: black;
+}
+.citation a{
+  text-decoration: none;
+  color: white;
+}
+.citation a:hover{
+  color: black;
+  text-decoration: underline 2px;
+  transition: 0.5s;
+}
+.navbar img{
+  width: 70px;
+}
+.navbar{
+/*  background: #259F6C;*/
+  background: linear-gradient( #1E6B7F, #FAFCD6);
+  color: #EAE7D9;
+  padding: 20px 20px;
+}
+.navbar a{
+  position: relative;
+  font-size: 20px;
+  color: #140303;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 40px;
+  border: solid 2px #140303;
+  border-radius: 5px;
+}
+ 
+.navbar a:hover{
+  color: white;
+  transition: 0.5s;
+  border: solid 2px white;
+}
+
+/*drop downmenu*/
+.dropdown-menu{
+  background: #1E6B7F;
+}
+.dropdown .btn{
+/*  background: #1E6B7F;*/
+  broder: 2px solid black;
+  padding: 9.5px;
+}
+.dropdown-menu a{
+/*  padding: 20px 20x;*/
+  margin: 0 0;
+  color: white;
+  border: none;
+}
+.dropdown-menu a:hover{
+  background: #259F6C;
+  transition: 0.5;
+}
+/*END OF NAV*/
+
+
+
+/*START OF BANNER*/
+/*.anibanner{
+  clip-path: polygon(0% 11.25%, 0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  background: #442727;
+  background-image: url(../images/anibannerbg.jpg);
+  background-size: cover;
+  border-radius: 30px;
+  height: auto;
+  width: 100%;
+  color: #00FFDD;
+}
+.anibanner p{
+  font-size: 20px;
+  color: #2FA4FF;
+}
+.anibannerimage{
+  height: auto;
+}
+.anitextbox{
+
+  align-content: center;
+  text-align: center;
+}
+.changepages{
+  display: flex;
+  background: #EAE7D9;
+  width: 340px;
+  border-radius: 20px;
+}
+.changepages img{
+  width: 50px;
+  height: 70px;
+
+}
+.changepages ul{
+  background: #EAE7D9;
+}
+.changepages li{
+  list-style: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}*/
+.bannersec{
+  clip-path: polygon(0% 11.25%, 0% 0%, 100% 0%, 100% 100%, 0% 100%);
+/*  background: #442727;*/
+  background-image: url(../images/anibannerbg.png);
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+}
+/*.bannersec:hover{
+  background: #541212;
+}*/
+.bannersec .content{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content .textBox{
+  position: relative;
+  max-width: 600px;
+  margin: 20px;
+/*  font-weight: bold;*/
+}
+.content .textBox h1{
+  font-family: "Lobster", sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  color: #0c907d;
+  -webkit-text-fill-color: #259F6C;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+/*  text-transform: uppercase;*/
+}
+.content .textBox h2 span{
+/*  color: #EAE7D9;*/
+  color: white;
+  font-size: 35px;
+}
+.textBox p{
+/*  color: #259F6C;*/
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1.2px;
+  -webkit-text-stroke-color: black;
+  font-weight: 700;
+}
+.imagebox img{
+  height: 500px;
+}
+.epic1{
+    width: 510px;
+    height: 350px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+.learnmore{
+  background: beige;
+  padding: 10px 10px;
+  color: #442727;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 550;
+}
+.learnmore:hover{
+  color: black;
+  background: #8B9A46;
+  transition: 1s;
+}
+
+/*END OF CHANGEPAGES*/
+
+/*WILDLIFE BANNER START*/
+
+/*END OF WILDLIFE BANNER*/
+.wildlifeban .bannersec{
+  background-image: url('../images/tigerbg.jpg');
+}
+.wildlifeban .content .textBox h1{
+  color: #90D26D;
+}
+.wildinfotxtbox .infotxt{
+  width: auto;
+  height: auto;
+}
+.card img{
+  height: 300px;
+}
+/*END OF BANNER*/
+
+
+/*START OF INFORMATION BANNER*/
+.infobanner{
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+}
+.infobanner img{
+  width: 450px;
+  border-radius: 20px;
+}
+.infotxt h1{
+  font-family: "Lobster", sans-serif;
+  color: #CCE490;
+  text-align: center;
+}
+.infotxt{
+  width: 100%;
+  padding: 72px 70px;
+  text-align: left;
+  align-content: center;
+  color: white;
+  border-radius: 20px;
+  background: linear-gradient(#140303, black);
+}
+/*END OF INFORMATION BANENR*/
+
+/*START OF ARTICLES*/
+.card-title{
+  color: beige;
+}
+.card-text{
+  color: #D2C6B2;
+}
+.articlesbanner .card{
+  width: 25rem;
+  height: 10vh;
+  background: linear-gradient( #1E6B7F, #259F6C);
+  justify-content: space-between;
+}
+.articlesbanner h2{
+  text-align: center;
+  font-family: "Lobster", sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  -webkit-text-fill-color: #259F6C;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  font-weight: 400;
+}
+.articlebanner .button{
+background: beige;
+}
+
+/*WILDLIFE ARITCLES SART*/
+.articlewild .card{
+  background: linear-gradient( #1E6B7F, #259F6C);
+}
+/*.articlewild .articlesbanner h2{
+  -webkit-text-fill-color: #90D26D;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #D06224;
+}*/
+/*END OF WILDLIFE ARTTICLES*/
+/*END OF ARTICLES*/
+
+/*START OF FOOTER*/
+.fa-brands{
+  font-size: xx-large;
+  margin: 5px;
+  color: #140303;
+}
+.fa-brands:hover{
+  color: #D2C6B2;
+  transition: 0.5s;
+}
+/*STRAT OF STRAY*/
+.straylifeban .bannersec{
+  background-image: url('../images2/straybg.jpg')
+}
+.bannersec_tran{
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 25px;
+}
+/*.fa-brands*/
+footer{
+/*  background: #5D8233;*/
+  background: linear-gradient( #FAFCD6, #1E6B7F);
+  color: black;
+  padding: 20px 20px;
+}
+.footerlist ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footerlist li{
+  margin: 5px;
+}
+.footerlist a{
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+
+}
+.footerlist a:hover{
+  border-bottom: solid 3px white;
+  transition: 0.3s;
+}
+
+
+/*END OF FOOTER*/
+
+
+/*RESPONSIVE*/
+@media screen and (max-width: 750px){
+  body{
+    overflow-x: hidden;
+  }
+  .bannersec .content{
+    flex-direction: column;
+  }
+  .aboutusbanner{
+    flex-direction: column;
+  }
+  .donationbanner{
+    flex-direction: column;
+  }
+  footer{
+    flex-direction: column;
+  }
+  .infobanner{
+    flex-direction: column;
+  }
+  .wildinfotxtbox .infotxt{
+    padding: 0 0;
+  }
+}

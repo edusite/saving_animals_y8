@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Poppins:wght@400;500;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background: #FAFCD6;
+/*  background: white;*/
+}
+
+/*START OF NAV*/
+
+ 
+.card p{
+  text-indent: 10px;
+}
+.active{
+  background-color: #1E6B7F;
+  border: solid 2px black;
+  color: black;
+}
+.citation a{
+  text-decoration: none;
+  color: white;
+}
+.citation a:hover{
+  color: black;
+  text-decoration: underline 2px;
+  transition: 0.5s;
+}
+.navbar img{
+  width: 70px;
+}
+.navbar{
+/*  background: #259F6C;*/
+  background: linear-gradient( #1E6B7F, #FAFCD6);
+  color: #EAE7D9;
+  padding: 20px 20px;
+}
+.navbar a{
+  position: relative;
+  font-size: 20px;
+  color: #140303;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 40px;
+  border: solid 2px #140303;
+  border-radius: 5px;
+}
+ 
+.navbar a:hover{
+  color: white;
+  transition: 0.5s;
+  border: solid 2px white;
+}
+
+/*drop downmenu*/
+.dropdown-menu{
+  background: #1E6B7F;
+}
+.dropdown .btn{
+  border: 2px solid black;
+  padding: 9.5px;
+}
+.dropdown-menu a{
+/*  padding: 20px 20x;*/
+  margin: 0 0;
+  color: white;
+  border: none;
+}
+.dropdown-menu a:hover{
+  background: #259F6C;
+  transition: 0.5;
+}
+/*END OF NAV*/
+
+
+/*START OF BANNERSEC*/
+.bannersec{
+  clip-path: polygon(0% 11.25%, 0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  background: linear-gradient( #140303, black);
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+}
+/*.bannersec:hover{
+  background: #541212;
+}*/
+.bannersec .content{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content .textBox{
+  position: relative;
+  max-width: 600px;
+  margin: 20px;
+/*  font-weight: bold;*/
+}
+.content .textBox h2{
+  color: #0C907D;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 600;
+}
+.content .textBox h2 span{
+/*  color: #EAE7D9;*/
+  color: white;
+  font-size: 35px;
+}
+.textBox p{
+  color: #F2F4B2;
+  font-size: 15px;
+}
+.imagebox img{
+  height: 500px;
+}
+.epic1{
+    width: 510px;
+    height: 350px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+.learnmore{
+  background: #CCE490;
+  padding: 10px 10px;
+  color: #442727;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 550;
+}
+.learnmore:hover{
+  color: black;
+  background: #0D627A;
+  transition: 1s;
+}
+/*END OF BANNER*/
+
+/*CHANGEPAGESBOX*/
+.changepages li{
+  display: inline-block;
+  list-style: none;
+/*  margin: 0 20px;*/
+}
+
+.changepages{
+  background: #937D14;
+  border-radius: 10px;
+  padding: 3px 3px;
+}
+.changepages li img{
+  width: 50x;
+  height: 70px;
+  filter: invert(100%) sepia(90%) saturate(678%) hue-rotate(298deg) brightness(112%) contrast(83%);
+}
+.changepages img:hover{
+  filter: invert(10%) sepia(11%) saturate(5371%) hue-rotate(325deg) brightness(88%) contrast(78%);
+  transition: 0.5s;
+}
+
+/*END OF CHANGEPAGES*/
+
+/*STRAT OF MODAL*/
+.modal-body{
+  text-align: center;
+  background: #CCE490;
+  color: #043a4a;
+  padding: 30px;
+}
+.modal-body .modal-title{
+  color: #003d4f;
+/*  text-align: left;*/
+  padding: 20px 20px;
+  font-size: 45px;
+}
+.modal-header, .modal-footer{
+  background: whitesmoke;
+}
+.modal-header .references{
+/*  display: inline-block;*/
+color: darkblue;
+}
+.modal-header .references p{
+  padding: 0 5px;
+}
+.modal-header h5{
+  color: #0C907D;
+}
+
+.modal-footer{
+  background-color: #CCE490;
+}
+/*END OF MODALA*/
+
+/*START OF ABOUTUS BANNER*/
+.aboutusbanner{
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+  display: flex;
+  padding: 50x;
+
+}
+.aboutustextbox{
+  display: inline-block;
+  align-content: center;
+  text-align: center;
+  padding: 60px;
+  background: linear-gradient( #1E6B7F, #259F6C);
+  color: #F2F4B2;
+  border-radius: 20px;
+  margin-left: 20px;
+}
+.aboutustextbox h1{
+  color: #140303;
+}
+.aboutusbanner p{
+  color: #D2C6B2;
+  font-size: 20px;
+}
+
+.aboutusbanner video{
+  border-radius: 20px;
+  width: 300px;
+  align-self: center;
+}
+/*END OF ABOUT US BANNER*/
+
+/*START OF DONATION*/
+.donationbanner{
+  clip-path: polygon(0% 0%, 85% 1%, 100% 50%, 85% 100%, 0% 100%);
+  background-image: url('../images/donationbgtrans.png');
+  height: 100%;
+  width: auto;
+  align-content: center;
+  align-items: center;
+  display: flex;
+}
+.donationtxtbox1{
+  margin-left: 100px;
+}
+.donationbanner h1{
+  -webkit-text-fill-color: #259F6C;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #0D627A;
+  font-weight: 800;
+}
+.donationbanner img{
+  width: 400px;
+}
+
+/*END OF DONATION*/
+
+/*START OF ARTICLES*/
+
+.card-title{
+  color: #140303;
+}
+.card-text{
+  color: #CCE490;
+}
+.articlesbanner img{
+  height: 50%;
+}
+.articlesbanner .card{
+  width: 25rem;
+  height: 10vh;
+  background: linear-gradient( #1E6B7F, #259F6C);
+  justify-content: space-between;
+}
+.articlesbanner h2{
+  text-align: center;
+  color: #140303;
+}
+.articlebanner .button{
+background: beige;
+}
+
+/*END OF ARTICLES*/
+
+/*START OF ADOPTION*/
+.adoptionbanner video{
+  width: 100%;
+  height: 80vh;
+}
+/*END OF ADOPTION*/
+/*START OF FOOTER*/
+.fa-brands{
+  font-size: xx-large;
+  margin: 5px;
+  color: #140303;
+}
+.fa-brands:hover{
+  color: #D2C6B2;
+  transition: 0.5s;
+}
+/*STRAT OF STRAY*/
+.straylifeban .bannersec{
+  background-image: url('../images2/straybg.jpg')
+}
+/*.fa-brands*/
+footer{
+/*  background: #5D8233;*/
+  background: linear-gradient( #FAFCD6, #1E6B7F);
+  color: black;
+  padding: 20px 20px;
+}
+.footerlist ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footerlist li{
+  margin: 5px;
+}
+.footerlist a{
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+
+}
+.footerlist a:hover{
+  border-bottom: solid 3px white;
+  transition: 0.3s;
+}
+
+iframe{
+/*  width: 100%;*/
+width: 450px;
+  height: 100%;
+}
+/*END OF FOOTER*/
+
+
+/*RESPONSIVE*/
+@media screen and (max-width: 750px){
+  body{
+    overflow-x: hidden;
+  }
+  .bannersec .imagebox{
+/*    width: 100%;*/
+  }
+  .bannersec .content{
+    flex-direction: column;
+  }
+  .aboutusbanner{
+    flex-direction: column;
+  }
+  .donationbanner{
+    flex-direction: column;
+  }
+  footer{
+    flex-direction: column;
+  }
+}

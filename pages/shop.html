@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donation | Shop</title>
+    <link rel="icon" type="image/x-icon" href="../images/igMTBs9b.ico"/>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../css/third.css" />
+    <!-- First Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Recursive:wght@300..1000&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Second Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lugrasimo&family=Recursive:wght@300..1000&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Third Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lugrasimo&family=Recursive:wght@300..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Confirmation</h5>
+          <button type="button" class="btn-close close_buy" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+ 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary buy_confirm" data-bs-dismiss="modal">Buy now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <img src="../images2/thank_for_buying.png" alt="thank_for_buying_img" class="thank_for_buying" />
+
+  <!-- START OF NAV -->
+    <div class="container_custom">
+      <div class="mother_bg">
+        <div class="bg">
+          <!-- Nav Bar Start  -->
+          <div class="d-flex justify-content-between ps-3 pe-5 mother_nav">
+            <div class="logo">
+              <a href="../index.html"><img class="logo_img" src="../images/logo4.png" alt="logo_img"/></a>
+            </div>
+ 
+            <div class="na_v d-flex">
+              <div class="me-5 donation hover_nav">
+                <a class="txt_dec" href="#">Donation | Shop</a>
+              </div>
+              <div class="adoption hover_nav">
+                <a class="txt_dec" href="../pages/adoption.html">Adoption</a>
+              </div>
+            </div>
+          </div>
+          </div>
+          <!-- Nav Bar End  -->
+ 
+          <div class=" ps-4 donation_main">
+            <!-- information/motivational part -->
+            <div class="l_txt">
+             
+            </div>
+            <!-- donation part  -->
+            <div class="r-txt">
+             
+            </div>
+ 
+          </div>
+          <img
+            class="vine"
+            src="../images2/vine-removebg.png"
+            alt="vine_pic"
+          />
+          <div class="info_div">
+            <div class="left_info">
+              <h1 class="pt-2">Should you Donate?</h1>
+                <p><i class="fa-solid fa-paw"></i> Your compassionate support for
+                  animal welfare will directly impact the lives of our furry
+                  friends, providing them with the love, care, and resources they
+                  need to thrive in a world where they too deserve our protection
+                  and kindness.
+                </p class="my-md-2">
+                <p><i class="fa-solid fa-paw"></i> By donating to our cause, you're
+                  also giving a second chance to stray animals in need, offering
+                  them warmth, shelter, and the chance to find loving homes where
+                  they'll be cherished companions.
+                </p>
+                <p>
+                  <i class="fa-solid fa-paw"></i> Your generosity can transform
+                  their lives and bring hope to those who have been abandoned and
+                  forgotten.
+                </p>
+            </div>
+            <div class="right_info">
+              <div class="amount_area">
+                <div>
+                  <div class="d-flex justify-content-between">
+                    <p><i class="fa-solid fa-user"></i>
+                      <span class="donated_times">nothing yet</span></p>
+                    <h2 class="donate_title">
+                      <span class="font_donate1">Start Donating</span>
+                      <span class="font_donate2">&</span> <br />
+                      Start Getting Your Gifts
+                    </h2>
+                   
+                    <p><i class="fa-solid fa-dollar-sign"></i>
+                      <span class="donated_amount">nothing yet</span></p>
+                  </div>
+                 
+                  <p>
+                    Please help save animal facing extension and having no homes
+                    to live in, Start donating one dolar to <b>SAVE</b>
+                    <i>one life of animal</i>
+                  </p>
+                </div>
+                <div class="am_box_main">
+                  <img class="lizard" src="../images2/lizard.png" alt="lizard" />
+                  <h5>Choose Your Amount!</h5>
+                  <div class="d-flex justify-content-center mt-2">
+                    <div id="am_box1" class="am_box me-2"><i class="fa-solid fa-paw fa_paw_am"></i>$15</div>
+                    <div id="am_box2" class="am_box me-2"><i class="fa-solid fa-paw fa_paw_am"></i>$25</div>
+                    <div id="am_box3"  class="am_box me-2"><i class="fa-solid fa-paw fa_paw_am"></i>$50</div>
+                    <div id="am_box4" class="am_box"><i class="fa-solid fa-paw fa_paw_am"></i>$100</div>
+                  </div>
+                  <div class="d-flex justify-content-center mt-2 mb-2">
+                    <div class="am_box me-2"><i class="fa-solid fa-paw fa_paw_am"></i>$250</div>
+                    <div class="am_box me-2"><i class="fa-solid fa-paw fa_paw_am"></i>$300</div>
+                    <div class="am_box me-2"><i class="fa-solid fa-paw fa_paw_am"></i>$500</div>
+                    <div class="amt_box">
+                      <input class="amount_type" type="text" placeholder="$" />
+                    </div>
+                  </div>
+                </div>
+ 
+                <div>
+                  <h5 class="mt-4 mtm_h">Make IT Monthly!</h5>
+                  <div class="d-flex mim_parent">
+                    <div class="mim_box rounded-start py-2 text-center col-6">
+                      <i class="fa-solid fa-paw fa_paw_am2"></i>
+                      Yes, Lets DO IT!
+                    </div>
+                    <div class="mim_box rounded-end py-2 text-center col-6">
+                      No, Donate Once
+                      <i class="fa-solid fa-paw fa_paw_am2"></i>
+                    </div>
+                  </div>
+                </div>
+ 
+                <div class="mt-1">
+                  <div
+                    class="pwc_main rounded p-2 d-flex justify-content-center"
+                  >
+                    <img
+                      class="card_design"
+                      src="../images2/Visa.png"
+                      alt="visa_card"
+                    />
+                    <img
+                      class="card_design"
+                      src="../images2/Discover.png"
+                      alt="discover_card"
+                    />
+                    <img
+                      class="card_design"
+                      src="../images2/mastercard.png"
+                      alt="master_card"
+                    />
+                    <img
+                      class="card_design rounded"
+                      src="../images2/AEXPRESS.jpg"
+                      alt="amrica_express"
+                    />
+                    Pay with card
+                  </div>
+ 
+                  <div class="or_main d-flex justify-content-center pt-2">
+                    <div class="bg-white line"></div>
+                    <div><h5 class="pt-1">Or</h5></div>
+                    <div class="bg-white line"></div>
+                  </div>
+                </div>
+                <div class="my-2 d-flex pay_an">
+                  <div
+                    class="pay_logo_mother d-flex justify-content-center rounded py-2"
+                  >
+                  <a href= "https://payments.google.com/gp/w/home/signup" target="_blank">
+                    <img class="pay_logo"
+                      src="../images2/g_pay.png"
+                      alt="g_pay_logo"/>
+                  </a>
+                   
+                  </div>
+                  <div class="pay_logo_mother d-flex justify-content-center rounded py-2">
+                    <a href="https://www.paypal.com/checkoutnow?sessionID=uid_cb935430ac_mti6ntg6mdm&buttonSessionID=uid_03e0271955_mte6mde6mja&stickinessID=uid_c31eb4a1bb_mte6ntu6mdg&smokeHash=&sign_out_user=false&token=EC-0T947743NA404871R&fundingSource=paypal&buyerCountry=MM&locale.x=en_US&commit=false&client-metadata-id=uid_f52dfedddb_mte6mde6mja&clientID=AbHo6hBEDmCHulDhRMkCVk7FDed5zE1-mNo7SQvo_yxeLvGylM5mGh5IOjx0AV9sTHhHDjD4A443Dybb&env=production&sdkMeta=eyJ1cmwiOiJodHRwczovL3d3dy5wYXlwYWwuY29tL3Nkay9qcz9jbGllbnQtaWQ9QWJIbzZoQkVEbUNIdWxEaFJNa0NWazdGRGVkNXpFMS1tTm83U1F2b195eGVMdkd5bE01bUdoNUlPangwQVY5c1RIaEhEakQ0QTQ0M0R5YmImbG9jYWxlPWVuX1VTJmRpc2FibGUtZnVuZGluZz1jcmVkaXQsY2FyZCZpbnRlbnQ9Y2FwdHVyZSZjb21taXQ9ZmFsc2UiLCJhdHRycyI6eyJkYXRhLXVpZCI6InVpZF9keHR6cnRqYmRudnBuZGtpc3VyZmR2eG5lZ2h0bGwifX0&xcomponent=1&version=5.0.437" target="_blank" >
+                      <img
+                      class="pay_logo"
+                      src="../images2/PayPal.png"
+                      alt="PayPal_logo"
+                    />
+                  </a>
+                   
+                  </div>
+                </div>
+ 
+                <div class="CYG rounded pt-3 pb-1">
+                  <h4 class="">One Donate One Gift!</h4>
+                </div>
+                <img class="gift_1" src="../images2/gift.png" alt="gift_pic(1)" />
+                <img
+                  class="gift_2"
+                  src="../images2/gift_2.png"
+                  alt="gift_pic(2)"
+                />
+              </div>
+              <!-- AMOUNT END  -->
+ 
+              <!-- Pay with card pop up START  -->
+              <div class="col-lg-11 payment_area">
+                <div class="d-flex">
+                  <div class="col-lg-3 to_amount">1-Amount</div>
+                  <div class="col-lg-6 text-underline">2-Payment</div>
+                  <div class="col-lg-3">3-Gift</div>
+                </div>
+             
+                  <div class="payment_form">
+                    <div>
+                      <p>
+                        Please help save animal facing extension and having no homes
+                        to live in, Start donating one dolar to <b>SAVE</b>
+                        <i>one life of animal</i>
+                      </p>
+                    </div>
+                   
+                    <div
+                    class="rounded p-2 d-flex justify-content-center"
+                  >
+                    <img
+                      class="card_design me-2"
+                      src="../images2/Visa.png"
+                      alt="visa_card"
+                    />
+                    <img
+                      class="card_design me-2"
+                      src="../images2/Discover.png"
+                      alt="discover_card"
+                    />
+                    <img
+                      class="card_design me-2"
+                      src="../images2/mastercard.png"
+                      alt="master_card"
+                    />
+                    <img
+                      class="card_design rounded"
+                      src="../images2/AEXPRESS.jpg"
+                      alt="amrica_express"
+                    />
+                   
+                  </div>
+                    <form>
+                      <div class="d-flex">
+                        <input class="col-lg-8 p-2 payment_input" required placeholder="Credit card number" type="number">
+                        <input class="col-lg-4 p-2 payment_input" required type="text" placeholder="CVV">
+                      </div>
+   
+                      <div class="d-flex my-2">
+                        <select class="col-lg-6 p-2" name="01-Jan" id="">
+                          <option value="">01-Jan</option>
+                          <option value="">02-Feb</option>
+                          <option value="">03-Mar</option>
+                          <option value="">04-Apr</option>
+                          <option value="">05-May</option>
+                          <option value="">06-Jun</option>
+                          <option value="">07-Jul</option>
+                          <option value="">08-Aug</option>
+                          <option value="">09-Sep</option>
+                          <option value="">10-Oct</option>
+                          <option value="">11-Nov</option>
+                          <option value="">12-Dec</option>
+                        </select>
+   
+                        <select class="col-lg-6 p-2" name="2024" id="">
+                          <option value="">2024</option>
+                          <option value="">2025</option>
+                          <option value="">2026</option>
+                          <option value="">2027</option>
+                          <option value="">2028</option>
+                          <option value="">2029</option>
+                          <option value="">2030</option>
+                          <option value="">2031</option>
+                          <option value="">2032</option>
+                          <option value="">2033</option>
+                          <option value="">2034</option>
+                          <option value="">2035</option>
+                        </select>
+                      </div>
+                    </form>
+                    <hr>
+   
+                    <form>
+                      <input type="email" required class="col-lg-12 p-2 payment_input" placeholder="Email adress">
+                      <div class="d-flex my-2">
+                        <input type="text" required class="col-lg-6 p-2 payment_input" id="" placeholder="First Name">
+                        <input type="text" required class="col-lg-6 p-2 payment_input" placeholder="Last Name">
+                      </div>
+                      <input type="Phone No." required class="col-lg-12 p-2 payment_input" placeholder="Phone No.">
+                      <button class="btn btn-primary donate_btn col-lg-12 mt-2 ">Donate</button>
+                    </form>
+                  </div>
+              </div>
+              <!-- Pay With Card Pop Up End  -->
+ 
+              <!-- Gift Section Start  -->
+              <div class="gift_area col-lg-11">
+                <div class="d-flex">
+                  <div class="col-lg-3 to_amount">1-Amount</div>
+                  <div class="col-lg-6 to_payment">2-Payment</div>
+                  <div class="col-lg-3 text-underline">3-Gift</div>
+                </div>
+                <div class="gift_form">
+                  <h2>Choose your gift</h2>
+                  <p>Choose what you like, we have given you with usuable and cute gifts for you, make sure to look toward the world not only yourself.</p>
+                  <div class="gifts ps-4">
+                    <div class="d-flex align-items-center gift_mom">
+                      <input type="radio" id="paw_plush" name="drone" value="paw_plush" checked />
+                      <label for="paw_plush" class="mx-2 fs-3">Paw Plush</label>
+                      <div class="gift_img_div">
+                        <img src="../images2/Paw_plush.PNG" alt="gift_1_img">
+                      </div>
+                    </div>
+                 
+                    <div class="d-flex align-items-center my-2 gift_mom">
+                      <input type="radio" id="tote" name="drone" value="tote" />
+                      <label for="tote" class="mx-2 fs-3">Tote</label>
+                      <div class="gift_img_div">
+                        <img src="../images2/Tote.png" alt="gift_2_img">
+                      </div>
+                    </div>
+                 
+                    <div  class="d-flex align-items-center gift_mom">
+                      <input type="radio" id="pen" name="drone" value="pen" />
+                      <label for="pen" class="mx-2 fs-3">Pen</label>
+                      <div class="gift_img_div">
+                        <img src="../images2/pen.png" alt="gift_3_img">
+                      </div>
+                    </div>
+                    </div>
+                    <div class="btn btn-primary col-lg-8 mt-3 choose_btn">Done</div>
+                  </div>
+                </div>
+                <!-- Gift Section END  -->
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+ 
+      <!-- POSTER START -->
+ 
+      <div class="poster_section d-flex">
+        <div class="col-lg-6 col-md-12">
+          <div class="poster">
+            <img
+              class="wlp"
+              src="../images2/poster1.png"
+              alt="wild_life_poster"
+            />
+            <img class="clm" src="../images2/poster2.png" alt="climate_change" />
+            <img class="sas" src="../images2/poster3.png" alt="sea_aimal" />
+            <img class="sta" src="../images2/poster4.png" alt="stray_animal" />
+          </div>
+        </div>
+ 
+        <!-- shop text  -->
+        <div class="shp_txt col-lg-6 col-md-12 col-sm-12">
+          <div class="text-center shp_txt_inner">
+            <h2>SHOP BELOW!?</h2>
+            <p>
+              Discover a world of wonders for animal lovers! At our website, we
+              offer a treasure trove of items related to animals, catering to
+              every passion and interest. From adorable plush toys to
+              captivating wildlife art, we have everything you desire, all at
+              prices that won't break the bank. Explore our collection today and
+              let your love for animals shine!
+              <span class="wshop"
+                >Additionally, with every purchase, you're not just acquiring a
+                product but also contributing to our mission of saving more
+                animals.</span
+              >
+            </p>
+            <a href="#come_here"><i class="fa-solid fa-chevron-down"></i></a>
+          </div>
+        </div>
+ 
+        <!-- shop text  -->
+      </div>
+ 
+      <!-- POSTER END -->
+ 
+      <!-- Shop Start  -->
+ 
+      <div class="shop_section mt-5">
+        <div class="shop_title">
+          <div class="d-flex justify-content-center">
+            <h1 id="come_here" class="text-center ls">Let's Shop!</h1>
+          </div>
+          <!-- will be continuing this in js -->
+          <div class="add_to_cart" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <i class="fa-solid fa-cart-shopping buy_now"> <span class="shop_amount">0</span></i>
+          </div>
+        </div>
+ 
+        <!-- product rows -->
+        <h3 class="p_h">Plushies</h3>
+        <div class="product_rows">
+          <div class="product_second_row left_row">
+            <div class="product">
+              <div class="product_disable">
+ 
+              </div>
+              <div class="img_prodcut">
+                <img src="../images2/whale.png" alt="whale_plushy" />
+              </div>
+              <div class="txt_product">
+                <div class="d-flex justify-content-between">
+                  <h5 class="product_type">Whale</h5>
+                  <h5 class="product_amount">$20</h5>
+                </div>
+              </div>
+              <div class="des_product">
+                <p>Size - Small, Median, Big</p>
+                <p>Color - white, gray, brown, blue</p>
+                <p>
+                  About - They are sweet, cute and made with the softest fibric of
+                  all, have differnt style and come differnt shapes
+                </p>
+              </div>
+              <button class="btn btn-outline-dark btn_product">
+                Add to cart
+              </button>
+            </div>
+            <div class="product">
+              <div class="product_disable">
+               
+              </div>
+              <div class="img_prodcut">
+                <img src="../images2/Panda.png" alt="Panda_plushy" />
+              </div>
+              <div class="txt_product">
+                <div class="d-flex justify-content-between">
+                  <h5 class="product_type">Panda</h5>
+                  <h5 class="product_amount">$15</h5>
+                </div>
+              </div>
+              <div class="des_product">
+                <p>Size - Small, Median, Big</p>
+                <p>Color - One color sect</p>
+                <p>
+                  About - Come in one color schem but is the perfect cuddle
+                  companion for cozy nights and heartwarming moments!
+                </p>
+              </div>
+              <button class="btn btn-outline-dark btn_product">
+                Add to cart
+              </button>
+            </div>
+          </div>
+          <div class="product_second_row right_row">
+            <div class="product">
+              <div class="product_disable">
+               
+              </div>
+              <div class="img_prodcut">
+                <img src="../images2/Giraffe.png" alt="Giraffe_plush" />
+              </div>
+              <div class="txt_product">
+                <div class="d-flex justify-content-between">
+                  <h5 class="product_type">Giraffe</h5>
+                  <h5 class="product_amount">$12</h5>
+                </div>
+              </div>
+              <div class="des_product">
+                <p>Size - Small, Median</p>
+                <p>Color - white, gray, brown, blue</p>
+                <p>
+                  About - It's simple but hugable, made with the best fabric. Come
+                  in differnt colors and differnt size
+                </p>
+              </div>
+              <button class="btn btn-outline-dark btn_product">
+                Add to cart
+              </button>
+            </div>
+ 
+            <div class="product">
+              <div class="product_disable">
+               
+              </div>
+              <div class="img_prodcut">
+                <img src="../images2/Cat_plushy.png" alt="cat_plushy" />
+              </div>
+              <div class="txt_product">
+                <div class="d-flex justify-content-between">
+                  <h5 class="product_type">Cat-Shark</h5>
+                  <h5 class="product_amount">$25</h5>
+                </div>
+              </div>
+              <div class="des_product">
+                <p>Size - Small, Median</p>
+                <p>Color - white, gray, brown, blue</p>
+                <p>
+                  About - It's a uinque desing which just relased in a couple of
+                  days and we are also planing to realse more of these.
+                </p>
+              </div>
+              <button class="btn btn-outline-dark btn_product">
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+ 
+        <h3 class="p_h mt-4">Merch</h3>
+        <div class="product_rows">
+          <div class="product_second_row left_row">
+            <div class="product">
+              <div class="product_disable">
+               
+              </div>
+              <div class="img_prodcut">
+                <img src="../images2/t-shirt.png" alt="T-shirt" />
+              </div>
+              <div class="txt_product">
+                <div class="d-flex justify-content-between">
+                  <h5 class="product_type">T-shirt</h5>
+                  <h5 class="product_amount">$35</h5>
+                </div>
+              </div>
+              <div class="des_product">
+                <p>Size - Small(Sm), Medium(M), Large(lg), Extra Large(XL)</p>
+                <p>Color - white</p>
+                <p>About - Crafted from high-quality cotton blends, our shirts offer the perfect balance of softness and durability.</p>
+              </div>
+              <button class="btn btn-outline-dark btn_product">
+                Add to cart
+              </button>
+            </div>
+ 
+            <div class="product">
+              <div class="product_disable">
+               
+              </div>
+              <div class="img_prodcut">
+                <img src="../images2/hoddie.png" alt="Hoddie" />
+              </div>
+              <div class="txt_product">
+                <div class="d-flex justify-content-between">
+                  <h5 class="product_type">Hoddie</h5>
+                  <h5 class="product_amount">$40</h5>
+                </div>
+              </div>
+              <div class="des_product">
+                <p>Size - Small(Sm), Medium(M), Large(lg), Extra Large(XL) </p>
+                <p>Color - white</p>
+                <p>About - Wrap yourself in comfort and style with our meticulously crafted hoodies, expertly made from premium fabrics for lasting quality and coziness.</p>
+              </div>
+              <button class="btn btn-outline-dark btn_product">
+                Add to cart
+              </button>
+            </div>
+          </div>
+          <div class="product_second_row right_row">
+            <div class="product">
+              <div class="product_disable">
+               
+              </div>
+              <div class="img_prodcut">
+                <img src="../images2/sleeve.png" alt="long_sleeve" />
+              </div>
+              <div class="txt_product">
+                <div class="d-flex justify-content-between">
+                  <h5 class="product_type">Long Sleeve</h5>
+                  <h5 class="product_amount">$37</h5>
+                </div>
+              </div>
+              <div class="des_product">
+                <p>Size - Small(Sm), Medium(M), Large(lg), Extra Large(XL)</p>
+                <p>Color - white</p>
+                <p>About - Elevate your wardrobe with our sophisticated long sleeve shirts, meticulously crafted from luxurious materials to ensure both comfort and elegance.</p>
+              </div>
+              <button class="btn btn-outline-dark btn_product">
+                Add to cart
+              </button>
+            </div>
+ 
+            <div class="product">
+              <div class="product_disable">
+               
+              </div>
+              <div class="img_prodcut">
+                <img src="../images2/cap.png" alt="cap" />
+              </div>
+              <div class="txt_product">
+                <div class="d-flex justify-content-between">
+                  <h5 class="product_type">cap</h5>
+                  <h5 class="product_amount">$17</h5>
+                </div>
+              </div>
+              <div class="des_product">
+                <p>Size - Small/Medium (S/M), Medium/Large (M/L), Large/Extra Large (L/XL)</p>
+                <p>Color - Orange, Black, Blue, Navy</p>
+                <p>About -Elevate your style with our caps, expertly crafted for comfort and versatility in every stitch.</p>
+              </div>
+              <button class="btn btn-outline-dark btn_product">
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+ 
+        <h3 class="p_h mt-4">Accessories</h3>
+        <div class="product_rows">
+          <div class="product_second_row left_row">
+            <div class="product">
+              <div class="product_disable">
+               
+              </div>
+              <div class="img_prodcut">
+                <img src="../images2/umbrella.png" alt="umbrella" />
+              </div>
+              <div class="txt_product">
+                <div class="d-flex justify-content-between">
+                  <h5 class="product_type">Umbrella</h5>
+                  <h5 class="product_amount">27$</h5>
+                </div>
+              </div>
+              <div class="des_product">
+                <p>Size -</p>
+                <p>Color - Black,Navy,Burgundy</p>
+                <p>About - Experience quality craftsmanship with our umbrellas, meticulously designed and constructed to keep you dry and stylish through any weather.</p>
+              </div>
+              <button class="btn btn-outline-dark btn_product">
+                Add to cart
+              </button>
+            </div>
+ 
+            <div class="product">
+              <div class="product_disable">
+               
+              </div>
+              <div class="img_prodcut">
+                <img src="../images2/cup.png" alt="cup" />
+              </div>
+              <div class="txt_product">
+                <div class="d-flex justify-content-between">
+                  <h5 class="product_type">Cup</h5>
+                  <h5 class="product_amount">$30</h5>
+                </div>
+              </div>
+              <div class="des_product">
+                <p>Size -</p>
+                <p>Color - Grey, Black, Blue</p>
+                <p>About - Sip in style with our meticulously crafted cups, expertly designed to elevate your beverage experience with every pour.</p>
+              </div>
+              <button class="btn btn-outline-dark btn_product">
+                Add to cart
+              </button>
+            </div>
+          </div>
+ 
+          <div class="product_second_row right_row">
+ 
+            <div class="product">
+              <div class="product_disable">
+               
+              </div>
+              <div class="img_prodcut">
+                <img src="../images2/book.png" alt="book" />
+              </div>
+              <div class="txt_product">
+                <div class="d-flex justify-content-between">
+                  <h5 class="product_type">Note Book</h5>
+                  <h5 class="product_amount">$15</h5>
+                </div>
+              </div>
+              <div class="des_product">
+                <p>Size -</p>
+                <p>Color - Brown, Blue, Black</p>
+                <p>About - Jot down your thoughts in style with our meticulously crafted notebooks, designed to inspire creativity and organization in every page</p>
+              </div>
+              <button class="btn btn-outline-dark btn_product">
+                Add to cart
+              </button>
+            </div>
+ 
+            <div class="product">
+              <div class="product_disable">
+               
+              </div>
+              <div class="img_prodcut">
+                <img src="../images2/back_pack.png" alt="back_pack" />
+              </div>
+              <div class="txt_product">
+                <div class="d-flex justify-content-between">
+                  <h5 class="product_type">Backpack</h5>
+                  <h5 class="product_amount">$20</h5>
+                </div>
+              </div>
+              <div class="des_product">
+                <p>Size -</p>
+                <p>Color - Black, Navy, Olive</p>
+                <p>About - Embark on your adventures with our Y-pack backpack, meticulously engineered for durability, functionality, and timeless style, ensuring you're ready for any journey ahead.</p>
+              </div>
+              <button class="btn btn-outline-dark btn_product">
+                Add to cart
+              </button>
+            </div>
+          </div>
+ 
+        </div>
+ 
+        <h3 class="p_h mt-4">Pet Prodcuts</h3>
+        <div class="product_rows">
+          <div class="product_second_row left_row">
+            <div class="product">
+              <div class="product_disable">
+               
+              </div>
+              <div class="img_prodcut">
+                <img src="../images2/pet_collar.png" alt="pet_collar" />
+              </div>
+              <div class="txt_product">
+                <div class="d-flex justify-content-between">
+                  <h5 class="product_type">Pet-collar</h5>
+                  <h5 class="product_amount">$7</h5>
+                </div>
+              </div>
+              <div class="des_product">
+                <p>Size - Extra Small to Extra Large</p>
+                <p>Color - Gree, Yellow, Blue, Pink, Purple</p>
+                <p>About - Elevate your pet's style and safety with our meticulously crafted collars, designed for comfort, durability, and a touch of personalized flair.</p>
+              </div>
+              <button class="btn btn-outline-dark btn_product">
+                Add to cart
+              </button>
+            </div>
+ 
+            <div class="product">
+              <div class="product_disable">
+               
+              </div>
+              <div class="img_prodcut">
+                <img src="../images2/pet_bowl.png" alt="pet_bowl" />
+              </div>
+              <div class="txt_product">
+                <div class="d-flex justify-content-between">
+                  <h5 class="product_type">Pet-Bowl</h5>
+                  <h5 class="product_amount">$10</h5>
+                </div>
+              </div>
+              <div class="des_product">
+                <p>Size -Small, Medium, Large</p>
+                <p>Color - Red, Navy, Green, Purple</p>
+                <p>About - Feed your furry friend in style with our meticulously crafted pet bowls, designed for both durability and aesthetic appeal to complement your home décor while keeping your pet nourished and happy.</p>
+              </div>
+              <button class="btn btn-outline-dark btn_product">
+                Add to cart
+              </button>
+            </div>
+          </div>
+ 
+          <div class="product_second_row right_row">
+            <div class="product">
+              <div class="product_disable">
+               
+              </div>
+              <div class="img_prodcut">
+                <img src="../images2/pet_leash.png" alt="pet_leash" />
+              </div>
+              <div class="txt_product">
+                <div class="d-flex justify-content-between">
+                  <h5 class="product_type">Leash</h5>
+                  <h5 class="product_amount">$25</h5>
+                </div>
+              </div>
+              <div class="des_product">
+                <p>Size -4feet to 6feet</p>
+                <p>Color - Pink, White, Blue</p>
+                <p>About - Walk in style and confidence with our meticulously crafted leashes, designed for durability and comfort, ensuring every outing with your pet is safe, secure, and stylish.</p>
+              </div>
+              <button class="btn btn-outline-dark btn_product">
+                Add to cart
+              </button>
+            </div>
+ 
+            <div class="product">
+              <div class="product_disable">
+               
+              </div>
+              <div class="img_prodcut">
+                <img src="../images2/pet_bandana.png" alt="pet_bandana" />
+              </div>
+              <div class="txt_product">
+                <div class="d-flex justify-content-between">
+                  <h5 class="product_type">Bandana</h5>
+                  <h5 class="product_amount">$5</h5>
+                </div>
+              </div>
+              <div class="des_product">
+                <p>Size - Small, Medium, Large</p>
+                <p>Color -  Columbia Blue,Turquorise, Kelly Green, Black</p>
+                <p>About - Elevate your pet's look with our meticulously crafted bandanas, designed for comfort and style, adding a touch of personality to every outing.</p>
+              </div>
+              <button class="btn btn-outline-dark btn_product">
+                Add to cart
+              </button>
+            </div>
+          </div>
+ 
+        </div>
+      </div>
+ 
+      <!-- Shop End  -->
+ 
+      <br /><br /><br /><br /><br /><br />
+ 
+ 
+ 
+ 
+    </div>
+
+              <!-- FOOTER -->
+          <div class="wildlifefooter">
+            <footer class="container-fluid">
+              <div class="row">
+                <div class="col col-lg-4 col-md-6 col-sm-12">
+                  <h5>Email - theunique7789@gmail.com</h5>
+                  <h5>Ph No. 09384754875</h5>
+                  <h5>Adress - 164 (A+B, Dhammazedi Road, Yangon 11201</h5>
+
+                  <br>
+                  <a href=""><i class="fa-brands fa-youtube"></i></a>
+                  <a href=""><i class="fa-brands fa-facebook"></i></a>
+                  <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                  <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                  <a href=""><i class="fa-brands fa-tiktok"></i></a>
+
+                </div>
+
+                <div class="col col-lg-4 col-md-6 col-sm-12 footerlist">
+                  <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../pages/aboutus.html">About us</a></li>
+                    <li><a href="../pages/marinelife.html">Marine Life</a></li>
+                    <li><a href="../pages/straylife.html">Stray Life</a></li>
+                    <li><a href="../pages/tips.html">Tips</a></li>
+                    <li><a href="../pages/shop.html">Donation | Shop</a></li>
+                    <li><a href="../pages/adoption.html">Adoption</a></li>
+                  </ul>
+                </div>
+
+                
+                <div class="googlemap col col-lg-4 col-md-6 col-sm-12">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6802.400069558292!2d95.17961864869916!3d16.889865666428104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c072fef5eabfc9%3A0x39cbd4b2d655e382!2sEinme!5e0!3m2!1sen!2smm!4v1716017573419!5m2!1sen!2smm" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="citation">
+                  <a href="https://edusn-my.sharepoint.com/:w:/g/personal/chotharmyatookhine_edusn_onmicrosoft_com/EVvxNwAcf0ZNixyyL_gbhlgBnMpteFaO_wHDMkvH8TUopA?e=zm2d0w" target="_blank">&copy; Copyright reserved | Citation - THE UNIQUE.</a>
+                </div>
+              </div>
+             
+            </footer>
+          </div>
+           
+          <!-- END OF FOOTER -->
+ 
+    <script src="../js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
